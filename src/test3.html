@@ -1,0 +1,548 @@
+﻿<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>MeMyselfAndINg4V2</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style type="text/css">/* You can add global styles to this file, and also import other style files */
+</style><style></style><style>html[_ngcontent-c1], body[_ngcontent-c1], div[_ngcontent-c1], span[_ngcontent-c1], applet[_ngcontent-c1], object[_ngcontent-c1], iframe[_ngcontent-c1], h1[_ngcontent-c1], h2[_ngcontent-c1], h3[_ngcontent-c1], h4[_ngcontent-c1], h5[_ngcontent-c1], h6[_ngcontent-c1], p[_ngcontent-c1], blockquote[_ngcontent-c1], pre[_ngcontent-c1], a[_ngcontent-c1], abbr[_ngcontent-c1], acronym[_ngcontent-c1], address[_ngcontent-c1], big[_ngcontent-c1], cite[_ngcontent-c1], code[_ngcontent-c1], del[_ngcontent-c1], dfn[_ngcontent-c1], em[_ngcontent-c1], img[_ngcontent-c1], ins[_ngcontent-c1], kbd[_ngcontent-c1], q[_ngcontent-c1], s[_ngcontent-c1], samp[_ngcontent-c1], small[_ngcontent-c1], strike[_ngcontent-c1], strong[_ngcontent-c1], sub[_ngcontent-c1], sup[_ngcontent-c1], tt[_ngcontent-c1], var[_ngcontent-c1], b[_ngcontent-c1], u[_ngcontent-c1], i[_ngcontent-c1], center[_ngcontent-c1], dl[_ngcontent-c1], dt[_ngcontent-c1], dd[_ngcontent-c1], ol[_ngcontent-c1], ul[_ngcontent-c1], li[_ngcontent-c1], fieldset[_ngcontent-c1], form[_ngcontent-c1], label[_ngcontent-c1], legend[_ngcontent-c1], table[_ngcontent-c1], caption[_ngcontent-c1], tbody[_ngcontent-c1], tfoot[_ngcontent-c1], thead[_ngcontent-c1], tr[_ngcontent-c1], th[_ngcontent-c1], td[_ngcontent-c1], article[_ngcontent-c1], aside[_ngcontent-c1], canvas[_ngcontent-c1], details[_ngcontent-c1], embed[_ngcontent-c1], figure[_ngcontent-c1], figcaption[_ngcontent-c1], footer[_ngcontent-c1], header[_ngcontent-c1], hgroup[_ngcontent-c1], menu[_ngcontent-c1], nav[_ngcontent-c1], output[_ngcontent-c1], ruby[_ngcontent-c1], section[_ngcontent-c1], summary[_ngcontent-c1], time[_ngcontent-c1], mark[_ngcontent-c1], audio[_ngcontent-c1], video[_ngcontent-c1] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+article[_ngcontent-c1], aside[_ngcontent-c1], details[_ngcontent-c1], figcaption[_ngcontent-c1], figure[_ngcontent-c1], footer[_ngcontent-c1], header[_ngcontent-c1], hgroup[_ngcontent-c1], menu[_ngcontent-c1], nav[_ngcontent-c1], section[_ngcontent-c1] {
+    display: block;
+}
+body[_ngcontent-c1] {
+    line-height: 1;
+}
+ol[_ngcontent-c1], ul[_ngcontent-c1] {
+    list-style: none;
+}
+blockquote[_ngcontent-c1], q[_ngcontent-c1] {
+    quotes: none;
+}
+blockquote[_ngcontent-c1]:before, blockquote[_ngcontent-c1]:after, q[_ngcontent-c1]:before, q[_ngcontent-c1]:after {
+    content: '';
+    content: none;
+}
+
+table[_ngcontent-c1] {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body[_ngcontent-c1] {
+    font-family: 'PT Sans', sans-serif;
+    min-height: 740px;
+
+    background: rgb(215, 215, 215);
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+}
+
+
+b[_ngcontent-c1], strong[_ngcontent-c1] { font-weight: bold }
+i[_ngcontent-c1], em[_ngcontent-c1] { font-style: italic }
+
+
+a[_ngcontent-c1] {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    border-radius: 0.2em;
+    transition:         0.5s;
+}
+
+a[_ngcontent-c1]:hover, a[_ngcontent-c1]:focus {
+    background: rgba(255,255,255,1);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+
+
+.fallback-message[_ngcontent-c1] {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message[_ngcontent-c1]   p[_ngcontent-c1] {
+    margin-bottom: 10px;
+}
+
+.impress-supported[_ngcontent-c1]   .fallback-message[_ngcontent-c1] {
+    display: none;
+}
+
+
+
+.step[_ngcontent-c1] {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+
+.impress-enabled[_ngcontent-c1]   .step[_ngcontent-c1] {
+    margin: 0;
+    opacity: 0.3;
+    transition:         opacity 1s;
+}
+
+.impress-enabled[_ngcontent-c1]   .step.active[_ngcontent-c1] { opacity: 1 }
+
+
+.slide[_ngcontent-c1] {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+.slide[_ngcontent-c1]   q[_ngcontent-c1] {
+    display: block;
+    font-size: 50px;
+    line-height: 72px;
+
+    margin-top: 100px;
+}
+
+.slide[_ngcontent-c1]   q[_ngcontent-c1]   strong[_ngcontent-c1] {
+    white-space: nowrap;
+}
+
+
+
+#title[_ngcontent-c1] {
+    padding: 0;
+}
+
+#title[_ngcontent-c1]   .try[_ngcontent-c1] {
+    font-size: 64px;
+    position: absolute;
+    top: -0.5em;
+    left: 1.5em;
+
+    -webkit-transform: translateZ(20px);
+    transform:         translateZ(20px);
+}
+
+#title[_ngcontent-c1]   h1[_ngcontent-c1] {
+    font-size: 190px;
+
+    -webkit-transform: translateZ(50px);
+    transform:         translateZ(50px);
+}
+
+#title[_ngcontent-c1]   .footnote[_ngcontent-c1] {
+    font-size: 32px;
+}
+
+
+#big[_ngcontent-c1] {
+    width: 600px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+}
+
+#big[_ngcontent-c1]   b[_ngcontent-c1] {
+    display: block;
+    font-size: 250px;
+    line-height: 250px;
+}
+
+#big[_ngcontent-c1]   .thoughts[_ngcontent-c1] {
+    font-size: 90px;
+    line-height: 150px;
+}
+
+
+#tiny[_ngcontent-c1] {
+    width: 500px;
+    text-align: center;
+}
+
+
+#ing[_ngcontent-c1] { width: 500px }
+
+
+#ing[_ngcontent-c1]   b[_ngcontent-c1] {
+    display: inline-block;
+    transition:         0.5s;
+}
+
+
+#ing.present[_ngcontent-c1]   .positioning[_ngcontent-c1] {
+    -webkit-transform: translateY(-10px);
+    transform:         translateY(-10px);
+}
+
+
+#ing.present[_ngcontent-c1]   .rotating[_ngcontent-c1] {
+    -webkit-transform: rotate(-10deg);
+    transform:         rotate(-10deg);
+    transition-delay:         0.25s;
+}
+
+
+#ing.present[_ngcontent-c1]   .scaling[_ngcontent-c1] {
+    -webkit-transform: scale(0.7);
+    transform:         scale(0.7);
+    transition-delay:         0.5s;
+}
+
+
+
+#imagination[_ngcontent-c1] {
+    width: 600px;
+}
+
+#imagination[_ngcontent-c1]   .imagination[_ngcontent-c1] {
+    font-size: 78px;
+}
+
+
+#source[_ngcontent-c1] {
+    width: 700px;
+    padding-bottom: 300px;
+
+    
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAMAAACwUBm+AAAAAXNSR0IArs4c6QAAAKtQTFRFsAAAvbWSLUUrLEQqY1s8UYJMqJ1vNTEgOiIdIzYhjIFVLhsXZ6lgSEIsP2U8JhcCVzMsSXZEgXdOO145XJdWOl03LzAYMk4vSXNExr+hwcuxRTs1Qmk+RW9Am49eFRANQz4pUoNMQWc+OSMDTz0wLBsCNVMxa2NBOyUDUoNNSnlEWo9VRGxAVzYFl6tXCggHbLNmMUIcHhwTXkk5f3VNRT8wUT8xAAAACQocRBWFFwAAAAF0Uk5TAEDm2GYAAAPCSURBVHja7d3JctNAFIZRMwRCCGEmzPM8z/D+T8bu/ptbXXJFdij5fMt2Wuo+2UgqxVmtttq5WVotLzBgwIABAwYMGDCn0qVqbo69psPqVpWx+1XG5iaavF8wYMCAAQMGDBgwi4DJ6Y6qkxB1HNlcN3a92gbR5P2CAQMGDBgwYMCAWSxMlrU+UY5yu2l9okfV4bAxUVbf7TJnAwMGDBgwYMCAAbMLMHeqbGR82Zy+VR1Ht81nVca6R+UdTLaU24Ruzd3qM/e4yjnAgAEDBgwYMGDA7AJMd1l/3NRdVGcj3eX/2WEhCmDGxnM7yqygu8XIPjJj8iN/MGDAgAEDBgwYMAuDGb8q0RGlLCHLv1t9qDKWn3vdNHVuEI6HPaxO9Jo3GDBgwIABAwYMmIXBdC9ShGgMk+XnkXUeuGcsP/e1+lhNnZsL/G5Vs3OAAQMGDBgwYMCAWSxMR3SzOmraG5atdy9wZKzb+vg16qyqe2FltbnAgAEDBgwYMGDALAxmTJSuN3WA76rnVca6GTnemGN1WoEBAwYMGDBgwIBZGMxUomy4+xO899V4LAg5Xnc2MGDAgAEDBgwYMGA218Wq+2K1LDqvY9xZu8zN8fICdM6btYABAwYMGDBgwIABMzfH0+pGU5afze2tXebmeAfVz+p8BQYMGDBgwIABAwbMPBzZ+oWmfJrln1273FhkbHzee9WWbw7AgAEDBgwYMGDALAKm43hcdctKgblcPamOhuXnXlY5Xs6bsW4FGyQCAwYMGDBgwIABswiYMceZKgvMo+h8mrHLTdn676rj+FEFoTtHd8MwOxEYMGDAgAEDBgyYRcBM5UhXqiymW3R3c9ARhWO/OmjqfjVZy+xEYMCAAQMGDBgwYBYG073OnCV0RFNhMhaOa9WfKmOB6XjHMN1tQmaAAQMGDBgwYMCA2VWY7vXjz1U4croAzgPztwIDBgwYMGDAgAEDZhswh035NBw59Dww3RgYMGDAgAEDBgwYMJuD6f4tXT7NUqfCdBvZLkxXdgQGDBgwYMCAAQNmt2DGj8WzwAfV/w7T/aq7mxwwYMCAAQMGDBgwuwqTOo7uTwTngflSzQ3TdaJvAwEDBgwYMGDAgAED5gSvgbyo5oHZ4Pc+gwEDBgwYMGDAgAEzhOm+5G0qTGaAAQMGDBgwYMCAAXNaMOcnls3tNwWm+zRzp54NDBgwYMCAAQMGDJh5YNL36k1TLuGvVq+qnKMbS5n7tulT9asCAwYMGDBgwIABA2ZumKuztLnjgQEDBgwYMGDAgNl5mH/4/ltKA6vBNAAAAABJRU5ErkJggg==);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+#source[_ngcontent-c1]   q[_ngcontent-c1] {
+    font-size: 60px;
+}
+
+
+#its-in-3d[_ngcontent-c1]   p[_ngcontent-c1] {
+    -webkit-transform-style: preserve-3d; 
+    transform-style:         preserve-3d;
+}
+
+
+#its-in-3d[_ngcontent-c1]   span[_ngcontent-c1], #its-in-3d[_ngcontent-c1]   b[_ngcontent-c1] {
+    display: inline-block;
+    -webkit-transform: translateZ(40px);
+     transform:        translateZ(40px);
+    transition:         0.5s;
+}
+
+#its-in-3d[_ngcontent-c1]   .have[_ngcontent-c1] {
+    -webkit-transform: translateZ(-40px);
+    transform:         translateZ(-40px);
+}
+
+#its-in-3d[_ngcontent-c1]   .you[_ngcontent-c1] {
+    -webkit-transform: translateZ(20px);
+    transform:         translateZ(20px);
+}
+
+#its-in-3d[_ngcontent-c1]   .noticed[_ngcontent-c1] {
+    -webkit-transform: translateZ(-40px);
+    transform:         translateZ(-40px);
+}
+
+#its-in-3d[_ngcontent-c1]   .its[_ngcontent-c1] {
+    -webkit-transform: translateZ(60px);
+    transform:         translateZ(60px);
+}
+
+#its-in-3d[_ngcontent-c1]   .in[_ngcontent-c1] {
+    -webkit-transform: translateZ(-10px);
+    transform:         translateZ(-10px);
+}
+
+#its-in-3d[_ngcontent-c1]   .footnote[_ngcontent-c1] {
+    font-size: 32px;
+
+    -webkit-transform: translateZ(-10px);
+    transform:         translateZ(-10px);
+}
+
+#its-in-3d.present[_ngcontent-c1]   span[_ngcontent-c1], #its-in-3d.present[_ngcontent-c1]   b[_ngcontent-c1] {
+    -webkit-transform: translateZ(0px);
+    transform:         translateZ(0px);
+}
+
+
+#overview[_ngcontent-c1] { display: none }
+
+
+.impress-on-overview[_ngcontent-c1]   .step[_ngcontent-c1] {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+.hint[_ngcontent-c1] {
+    
+    display: none;
+
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+
+    background: rgba(0,0,0,0.5);
+    color: #EEE;
+    text-align: center;
+
+    font-size: 50px;
+    padding: 20px;
+
+    z-index: 100;
+
+    
+    opacity: 0;
+
+    
+    -webkit-transform: translateY(400px);
+    transform:         translateY(400px);
+
+    
+    transition: opacity 1s,         -webkit-transform 0.5s 1s;
+    transition: opacity 1s,         transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s,         -webkit-transform 0.5s 1s;
+}
+
+
+.impress-enabled[_ngcontent-c1]   .hint[_ngcontent-c1] { display: block }
+
+
+.impress-on-bored[_ngcontent-c1]   .hint[_ngcontent-c1] {
+    
+    opacity: 1;
+
+    -webkit-transform: translateY(0px);
+    transform:         translateY(0px);
+
+    
+    transition: opacity 1s 5s,         -webkit-transform 0.5s 4.5s;
+    transition: opacity 1s 5s,         transform 0.5s 4.5s;
+    transition:         opacity 1s 5s,         transform 0.5s 4.5s,         -webkit-transform 0.5s 4.5s;
+}
+
+
+.impress-enabled[_ngcontent-c1]          { pointer-events: none }
+.impress-enabled[_ngcontent-c1]   #impress[_ngcontent-c1] { pointer-events: auto }
+
+
+
+
+
+.cfp-hotkeys-container[_ngcontent-c1] {
+  display: table !important;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #333;
+  font-size: 1em;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.cfp-hotkeys-container.fade[_ngcontent-c1] {
+  z-index: -1024;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.cfp-hotkeys-container.fade.in[_ngcontent-c1] {
+  z-index: 10002;
+  visibility: visible;
+  opacity: 1;
+}
+
+.cfp-hotkeys-title[_ngcontent-c1] {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.cfp-hotkeys[_ngcontent-c1] {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cfp-hotkeys[_ngcontent-c1]   table[_ngcontent-c1] {
+  margin: auto;
+  color: #333;
+}
+
+.cfp-content[_ngcontent-c1] {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cfp-hotkeys-keys[_ngcontent-c1] {
+  padding: 5px;
+  text-align: right;
+}
+
+.cfp-hotkeys-key[_ngcontent-c1] {
+  display: inline-block;
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 5px;
+  box-shadow: inset 0 1px 0 #666, 0 1px 0 #bbb;
+  padding: 5px 9px;
+  font-size: 1em;
+}
+
+.cfp-hotkeys-text[_ngcontent-c1] {
+  padding-left: 10px;
+  font-size: 1em;
+}
+
+.cfp-hotkeys-close[_ngcontent-c1] {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-height: 45px;
+  min-width: 45px;
+  text-align: center;
+}
+
+.cfp-hotkeys-close[_ngcontent-c1]:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+@media all and (max-width: 500px) {
+  .cfp-hotkeys[_ngcontent-c1] {
+    font-size: 0.8em;
+  }
+}
+
+@media all and (min-width: 750px) {
+  .cfp-hotkeys[_ngcontent-c1] {
+    font-size: 1.2em;
+  }
+}
+body.impress-on-pr[_ngcontent-c1] {
+  background: radial-gradient(#40a4df, #bebebe);
+}</style></head>
+<body class="impress-supported">
+  <div app-root="" _nghost-c0="" ng-version="4.4.6">
+
+<div _ngcontent-c0="" id="impress" impress="" _nghost-c1="">
+    <div _ngcontent-c1="" class="step slide" data-x="1000" data-y="-1500">
+        <q _ngcontent-c1="">Would you like to <strong _ngcontent-c1="">impress your audience</strong> with <strong _ngcontent-c1="">stunning visualization</strong> of your talk?</q>
+    </div>
+
+    
+    <div _ngcontent-c1="" class="step" data-scale="4" data-x="0" data-y="0" id="title">
+        <span _ngcontent-c1="" class="try">then you should try</span>
+        <h1 _ngcontent-c1="">impress.js<sup _ngcontent-c1="">*</sup></h1>
+        <span _ngcontent-c1="" class="footnote"><sup _ngcontent-c1="">*</sup> no rhyme intended</span>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">then you should try</span>
+        <h1>impress.js<sup>*</sup></h1>
+        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+    </div>
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>It’s a <strong>presentation tool</strong> <br/>
+        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
+        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    </div>
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>and <b>tiny</b> ideas</p>
+    </div>
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>want to know more?</p>
+        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>one more thing...</p>
+    </div>
+
+    
+</div>
+
+
+
+</div>
+  
+  <script src="assets/js/impress.js"></script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script>
+
+</body></html>
