@@ -1,7 +1,7 @@
 {
-  "name": "me-myself-and-ing4-v2",
+  "name": "SampleNG4ImpressJsIntegration",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "GPL",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
