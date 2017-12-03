@@ -6,11 +6,9 @@ Benoit Rolland
 History
 =================
 Since no impress.js project seemed compatible with Angular 4
-I had to migrate the most recent I found: MeMyselfAndI
+I had to migrate the most recent I found: MeMyselfAndI https://reyramos.github.io/meMyselfAndI
 
-Original readme
 =======================
-# MeMyselfAndINg4V2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.8.
 

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccessoComponent implements OnInit {
 
+  //static $inject: Array<string> = ['$scope'];
+  
   constructor() { }
 
   ngOnInit() {
